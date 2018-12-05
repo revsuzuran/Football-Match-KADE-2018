@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created On : 10/25/18 10:03 PM
+  ~ Author : Aqil Prakoso
+  ~ Copyright (c) 2018 iRevStudio
+  ~
+  -->
+
+<resources>
+    <item name="nama_tim" type="id" />
+    <item name="logo_tim" type="id" />
+    <item name="LastMatch_homeSkor" type="id" />
+    <item name="lastMatch_homeName" type="id" />
+    <item name="lastMatch_homeLogo" type="id" />
+    <item name="lastMatch_awaySkor" type="id" />
+    <item name="lastMatch_awayName" type="id" />
+    <item name="lastMatch_awayLogo" type="id" />
+    <item name="lastMatch_homeSkor" type="id" />
+    <item name="nextMatch_homeName" type="id" />
+    <item name="nextMatch_homeSkor" type="id" />
+    <item name="nextMatch_awaySkor" type="id" />
+    <item name="nextMatch_awayName" type="id" />
+    <item name="fav_nama_tim" type="id" />
+    <item name="fav_logo_tim" type="id" />
+    <item name="list_event_lastMatch" type="id" />
+    <item name="list_event_favorites" type="id" />
+    <item name="nextMatch_date" type="id" />
+    <item name="dateMatch" type="id" />
+    <item name="RVMatch" type="id" />
+    <item name="nextMatch_dateMatch" type="id" />
+    <item name="nextMatch_homeLogo" type="id" />
+    <item name="playerPict" type="id" />
+    <item name="playerName" type="id" />
+    <item name="playerDetailHeight" type="id" />
+    <item name="playerDetailWeight" type="id" />
+    <item name="nextMatch_time" type="id" />
+</resources>

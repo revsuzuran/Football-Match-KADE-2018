@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipePlayerDetail">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/playerDetailPict"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/playerDetailNationality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="MANCHASTER UNITED"
+                android:textColor="#fff"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/playerDetailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="MANCHASTER UNITED"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/playerDetailViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layoutTop"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/playerDetailTabs"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#fff"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                app:tabTextColor="@color/colorPrimary"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabIndicatorColor="@color/colorPrimary"
+                />
+
+        </android.support.v4.view.ViewPager>
+
+
+        <ProgressBar
+            android:id="@+id/pgBar_playerDetail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
